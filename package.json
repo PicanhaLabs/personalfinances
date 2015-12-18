@@ -19,5 +19,8 @@
   "devDependencies": {
     "istanbul": "^0.4.1",
     "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "bower": "^1.7.1"
   }
 }

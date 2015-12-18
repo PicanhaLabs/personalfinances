@@ -1,19 +1,23 @@
 {
-	"name": "personalfinances",
-	"version": "0.0.1",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"test": "istanbul cover _mocha -- -R spec"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/renie/personalfinances.git"
-	},
-	"author": "Renie Siqueira",
-	"license": "GPL-3.0",
-	"bugs": {
-		"url": "https://github.com/renie/personalfinances/issues"
-	},
-	"homepage": "https://github.com/renie/personalfinances#readme"
+  "name": "personalfinances",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover node_modules/mocha/bin/_mocha test -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renie/personalfinances.git"
+  },
+  "author": "Renie Siqueira",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/renie/personalfinances/issues"
+  },
+  "homepage": "https://github.com/renie/personalfinances#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4"
+  }
 }

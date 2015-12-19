@@ -1,5 +1,5 @@
 'use strict';
 
-var Fluxxor = require('Fluxxor');
+var Flux = require("Flux");
 
-window.Fluxxor = Fluxxor;
+debugger;

@@ -5,7 +5,7 @@ System.config({
 	defaultJSExtensions: true,
 	format: 'cjs',
 	map: {
-		'Fluxxor': '../vendor/fluxxor/build/fluxxor.min.js'
+		'Fluxxor': '/public/vendor/fluxxor/build/fluxxor.js'
 	}
 });
 
